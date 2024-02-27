@@ -2,6 +2,7 @@ package com.app.ratelimiter.fixedwindow;
 
 public class FixedWindowRateLimiterTest {
     public static void main(String[] args) throws InterruptedException {
+
         long windowSizeInMillis = 60 * 1000;
         FixedWindowRatelimiter fixedWindowRatelimiter = new FixedWindowRatelimiter(10,
                 windowSizeInMillis);
